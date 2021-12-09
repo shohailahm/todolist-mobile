@@ -17,13 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todo",
+      "buildNumber": "1.0.0",
+      "infoPlist":{
+        "NSLocationWhenInUseUsageDescription":"This app will access location",
+        "NSLocationAlwaysAndWhenInUseUsageDescription":"this app will access location"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.todo",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
